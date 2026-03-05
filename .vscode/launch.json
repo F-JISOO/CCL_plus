@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: main.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/mnt/f7a57ea9-f9b0-4806-966e-7f21cbc76421/syfang/baseline/main.py",
+            "python": "/home/syfang/anaconda3/envs/syfang/bin/python",
+            "console": "integratedTerminal",
+            "args": [
+                "--cfg", "configs/peft/inat.yaml",
+                "vpt_deep", "True",
+                "algorithm", "VLFD2"
+            ]
+        }
+    ]
+}
